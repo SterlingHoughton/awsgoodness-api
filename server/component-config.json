@@ -1,5 +1,9 @@
 {
   "loopback-component-explorer": {
-    "mountPath": "/explorer"
+    "mountPath": "/explorer",
+    "appInfo": {
+      "title": "AWSGOODNESS API",
+      "description": "Version 1"
+    }
   }
 }
