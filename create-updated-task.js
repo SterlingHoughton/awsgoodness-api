@@ -35,7 +35,7 @@ updatedTask.containerDefinitions[0].environment = [
   },
 ]
 
-updatedTask.containerDefinitions[0].logConfigurations.options = {
+updatedTask.containerDefinitions[0].logConfiguration.options = {
   'awslogs-group': process.env.AWSLOGS_GROUP,
   'awslogs-region': process.env.AWSLOGS_REGION,
   'awslogs-stream-prefix': process.env.AWSLOGS_STREAM_PREFIX,
