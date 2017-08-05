@@ -5,7 +5,7 @@
       "name": "awsgoodness-api-task",
       "portMappings": [
         {
-          "containerPort": 3000,
+          "containerPort": 3000
         }
       ],
       "logConfiguration": {
