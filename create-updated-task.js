@@ -23,7 +23,7 @@ updatedTask.containerDefinitions[0].environment = [
   },
   {
     'name': 'PRODUCTION_RDS_USER',
-    'value': process.env.PRODUCTION_RDS_USR,
+    'value': process.env.PRODUCTION_RDS_USER,
   },
   {
     'name': 'PRODUCTION_RDS_PWD',
