@@ -84,7 +84,7 @@ jobs:
           # we run a script file here that we'll make in the final video
           # of this section
           command: |
-            chmod +x ../deploy.sh
+            chmod +x deploy.sh
             ./deploy.sh
 
 # "jobs" defines units of work.  "workflows" defines how to use those unites of work
